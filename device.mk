@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
 
+PRODUCT_PROPERTY_OVERRIDES  += \
+    vendor.product.device=guacamole
+
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7ProWifiOverlay
