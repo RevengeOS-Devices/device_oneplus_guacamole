@@ -11,8 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamole device
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
-# Inherit some common YAAP stuff.
+# Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
+
+# Build Official
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_guacamole
