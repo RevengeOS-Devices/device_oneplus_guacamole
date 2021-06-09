@@ -23,11 +23,5 @@
     "target_path" : "vendor/oneplus",
     "branch": "eleven"
 
-  },
-  {
-    "remote": "github",
-    "repository"  : "AOSP-Krypton/hardware_qcom-caf_bootctrl",
-    "target_path" : "hardware/qcom-caf/bootctrl",
-    "branch": "A11"
   }
 ]
