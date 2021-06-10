@@ -6,10 +6,10 @@
     "branch": "r11.0"
   },
   {
-    "remote": "devices",
-    "repository"  : "kernel_oneplus_sm8150",
+    "remote": "github",
+    "repository"  : "RealJohnGalt/GaltsGulch-sm8150",
     "target_path" : "kernel/oneplus/sm8150",
-    "branch": "lineage-18.1"
+    "branch": "gulch_r"
   },
   {
     "remote": "devices",
