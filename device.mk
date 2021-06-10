@@ -17,6 +17,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-revengeos/frameworks/base/packages/SystemUI
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 234
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
@@ -51,3 +54,4 @@ PRODUCT_PROPERTY_OVERRIDES  += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7ProWifiOverlay
+
