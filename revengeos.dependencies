@@ -9,7 +9,7 @@
     "remote": "github",
     "repository"  : "RealJohnGalt/GaltsGulch-sm8150",
     "target_path" : "kernel/oneplus/sm8150",
-    "branch": "gulch_r"
+    "branch": "gulch_r_staging"
   },
   {
     "remote": "devices",
