@@ -15,7 +15,7 @@
     "remote": "devices",
     "repository"  : "device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch": "lineage-18.1"
+    "branch": "eleven"
   },
   {
     "remote": "devices",
